@@ -1,0 +1,65 @@
+header{
+	background-color:#C60202;
+	padding: 2% 0%;
+}
+h1{
+	color: white;
+	font-family: Fjalla One;
+	text-shadow: 2px 4px #911313;
+	font-weight: bold;
+}
+section{
+	padding: 2%;
+	background-color: black;
+	font-family: Roboto Condensed;
+}
+.btn-danger{
+	margin-top: 20px;
+	padding: 5px;
+	font-size: 20px;
+}
+li{
+	padding: 5px;
+}
+li:hover{
+	background-color: #C60202;
+	color: white;
+}
+h2{
+	color: white !important;
+}
+.contenedor{
+	text-align: center;
+	width: 185px;
+	height: 250px;
+	margin: 15px 5px;
+	padding: 0px 5px;
+}
+.contenedor:hover{
+	padding:5px 0px;
+}
+.caja-pelicula{
+	width: 180px;
+	height: 205px;
+	padding: 5px;
+	border: 2px solid white;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+}
+img{
+	width: 160px;
+	height: 190px;
+}
+h3{
+	color: white !important;
+	margin-top: 5px !important;
+}
+footer{
+	background-color:#C60202;
+	color: white;
+	padding: 2% 0%;
+}

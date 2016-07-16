@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <meta charset="UTF-8">
+	   <title>Detalles peliculas</title>
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Fjalla+One' rel='stylesheet' type='text/css'>
+	   <link rel="stylesheet" href="css/main.css">
+	</head>
+	<header>
+		<div class="container">
+			<div class="row colocar">
+				<div class="col-md-12">
+					<h1>
+						More Movies <i class="fa fa-plus-circle" aria-hidden="true"></i>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--desde aqui se trabaja-->
+	<section class="categorias">
+		<div class="container">
+			<div class="row colocar">
+				<div class="col-md-4">
+					<h2>
+						Seleccione su categoria:
+					</h2>
+				</div>
+				<div class="col-md-4 col-md-offset-right-4">
+					<div class="btn-group">
+  						<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   						 Categorias <span class="caret"></span>
+  						</button>
+					  <ul class="dropdown-menu">
+					    <li onchange="retornar()">Todas las Categorias</li>
+					    <li class="divider"></li>
+					    <li onclick="kids()">Infantil</li>
+					    <li onclick="love()">Romanticas</li>
+					    <li onclick="scifi()">Ciencia Ficcion</li>
+					    <li onclick="action()">Accion</li>
+					    <li onclick="scary()">Terror</li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cine">
+		<div class="container">
+			<div class="row colocar">
+				<div class="col-md-3 ciencia">
+					<div class="contenedor">
+						<a href="alient.html">
+							<div class="caja-pelicula">
+								<img src="images/alien.jpg">
+							</div>
+							<h3>Alien Resurection</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 infantil">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/brave.jpg">
+							</div>
+							<h3>Valiente</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 romantica">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/como si fuera la primera.jpg">
+							</div>
+							<h3>Como si fuera la primera vez</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 ciencia">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/depredador.jpg">
+							</div>
+							<h3>Depredador</h3>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row colocar">
+				<div class="col-md-3 accion">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/civilwar.jpg">
+							</div>
+							<h3>Civil War</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 ciencia">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/avatar.jpg">
+							</div>
+							<h3>Avatar</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 terror">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/the_thing_poster.jpg">
+							</div>
+							<h3>The thing</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 accion">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/spiderman.jpg">
+							</div>
+							<h3>Spiderman</h3>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row colocar">
+				<div class="col-md-3 romantica">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/titanic.jpg">
+							</div>
+							<h3>Titanic</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 terror">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/la cumbre escarlta.jpg">
+							</div>
+							<h3>La cumbre Escarlata</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 infantil">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/intensamente.jpg">
+							</div>
+							<h3>Intensamente</h3>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 romantica">
+					<div class="contenedor">
+						<a href="">
+							<div class="caja-pelicula">
+								<img src="images/notebook.jpg">
+							</div>
+							<h3>Notebook</h3>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<h3>Quizas ponga algo aqui... que se yo no soy 100tifika</h3>
+		</div>
+	</footer>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
