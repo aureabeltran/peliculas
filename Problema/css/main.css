@@ -9,7 +9,7 @@ h1{
 	font-weight: bold;
 }
 section{
-	padding: 2%;
+	padding: 4%;
 	background-color: black;
 	font-family: Roboto Condensed;
 }
@@ -17,6 +17,7 @@ section{
 	margin-top: 20px;
 	padding: 5px;
 	font-size: 20px;
+	width: 100%;
 }
 li{
 	padding: 5px;
@@ -32,11 +33,11 @@ h2{
 	text-align: center;
 	width: 185px;
 	height: 250px;
-	margin: 15px 5px;
+	margin: 20px 5px;
 	padding: 0px 5px;
 }
-.contenedor:hover{
-	padding:5px 0px;
+.contenedor h3:hover{
+	font-weight: bold;
 }
 .caja-pelicula{
 	width: 180px;
@@ -61,5 +62,45 @@ h3{
 footer{
 	background-color:#C60202;
 	color: white;
-	padding: 2% 0%;
+	padding: 5% 0%;
+}
+.container-movies{
+	padding: 0 auto;
+}
+.sinopsis{
+	margin: 0 auto 30px;
+	text-align: center;
+	width: 600px;
+	height: 400px;
+	padding: 5px;
+	border: 2px solid white;
+}
+.home{
+	float: right;
+	border: 1px solid white;
+	padding: 5px 10px;
+}
+a h5{
+	font-size: 30px;
+	color: white;
+}
+a h5:hover{
+	color: #911313;
+}
+footer .redes{
+	font-size: 35px;
+	display: inline-block;
+	padding: 5px 10px;
+}
+footer i{
+	color: white;
+}
+footer .fa-facebook-official:hover{
+	color:#1C0DAB;
+}
+footer .fa-twitter:hover{
+	color:#189FEC;
+}
+footer .fa-instagram:hover{
+	color:#c13584;
 }
