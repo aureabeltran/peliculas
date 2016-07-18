@@ -5,15 +5,28 @@ var terror = $(".terror");
 var accion = $(".accion");
 var row = $(".row");
 var colocar =  $(".colocar");
-
-function all (element){
-	infantil.show();
+var section = $(".cine");
+/*function retornar (element) {
+	 if (section.change){
+	 	function all (element){
+			infantil.show();
+			ciencia.show();
+			romantica.show();
+			terror.show();
+			accion.show();
+			colocar.addClass("row");
+		}
+	} 
+}
+*/
+$("#all").click(function(){
+    infantil.show();
 	ciencia.show();
 	romantica.show();
 	terror.show();
 	accion.show();
 	colocar.addClass("row");
-}
+}); 
 function kids (element) {
 	infantil.show();
 	ciencia.hide();
