@@ -6,19 +6,7 @@ var accion = $(".accion");
 var row = $(".row");
 var colocar =  $(".colocar");
 var section = $(".cine");
-/*function retornar (element) {
-	 if (section.change){
-	 	function all (element){
-			infantil.show();
-			ciencia.show();
-			romantica.show();
-			terror.show();
-			accion.show();
-			colocar.addClass("row");
-		}
-	} 
-}
-*/
+//con esto muestro todas mis categorias
 $("#all").click(function(){
     infantil.show();
 	ciencia.show();
@@ -27,6 +15,7 @@ $("#all").click(function(){
 	accion.show();
 	colocar.addClass("row");
 }); 
+//Esto es una por una
 function kids (element) {
 	infantil.show();
 	ciencia.hide();
@@ -34,6 +23,7 @@ function kids (element) {
 	terror.hide();
 	accion.hide();
 	row.removeClass();
+	section.addClass("index");
 }
 function scifi (element) {
 	ciencia.show();
@@ -42,6 +32,7 @@ function scifi (element) {
 	terror.hide();
 	accion.hide();
 	row.removeClass();
+	section.addClass("index");
 }
 function love (element){
 	romantica.show();
@@ -50,6 +41,7 @@ function love (element){
 	accion.hide();
 	ciencia.hide();
 	row.removeClass();
+	section.addClass("index");
 }
 function action (element) {
 	romantica.hide();
@@ -59,6 +51,7 @@ function action (element) {
 	accion.show();
 	ciencia.hide();
 	row.removeClass();
+	section.addClass("index");
 }
 function scary (element){
 	romantica.hide();
@@ -68,4 +61,5 @@ function scary (element){
 	accion.hide();
 	ciencia.hide();
 	row.removeClass();
+	section.addClass("index");
 }

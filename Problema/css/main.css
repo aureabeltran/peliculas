@@ -13,6 +13,9 @@ section{
 	background-color: black;
 	font-family: Roboto Condensed;
 }
+.index{
+	height: 700px;
+}
 .btn-danger{
 	margin-top: 20px;
 	padding: 5px;
