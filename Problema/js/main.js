@@ -13,6 +13,7 @@ $("#all").click(function(){
 	romantica.show();
 	terror.show();
 	accion.show();
+	section.removeClass("index");
 	colocar.addClass("row");
 }); 
 //Esto es una por una
