@@ -37,13 +37,16 @@ h2{
 	padding: 0px 5px;
 }
 .contenedor h3:hover{
-	font-weight: bold;
+	font-weight: bolder;
 }
 .caja-pelicula{
 	width: 180px;
 	height: 205px;
 	padding: 5px;
 	border: 2px solid white;
+}
+.caja-pelicula:hover{
+	padding: 0px;
 }
 a{
 	text-decoration: none;
@@ -55,6 +58,10 @@ img{
 	width: 160px;
 	height: 190px;
 }
+img:hover{
+	width: 170px;
+	height: 200px;
+}
 h3{
 	color: white !important;
 	margin-top: 5px !important;
@@ -62,7 +69,7 @@ h3{
 footer{
 	background-color:#C60202;
 	color: white;
-	padding: 5% 0%;
+	padding: 3% 0%;
 }
 .container-movies{
 	padding: 0 auto;
